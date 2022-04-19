@@ -19,11 +19,11 @@ filegroup(
 """
 
 http_archive(
-    name = "cpython",
-    sha256 = "ec4c40c52f092b22fd14e44fa3cb635dc0f132f5fc7add9df02f9c8c3f9e6fa3",
+    name = "python399",
+    sha256 = "acbbc47faa61c20e68b49dac7c27de497d293a5c2105ca74c6c77a5d10ec1da4",
     build_file_content = _ALL_PYTHON_CONTENTS_,
-    strip_prefix = "cpython-9cf6752276e6fcfd0c23fdb064ad27f448aaaf75",
-    urls = ["https://github.com/python/cpython/archive/9cf6752276e6fcfd0c23fdb064ad27f448aaaf75.zip"], # python3.9.0, 2022-04-15T19:34:20Z
+    strip_prefix = "cpython-ccb0e6a3452335a4c3e2433934c3c0c5622a34cd",
+    urls = ["https://github.com/python/cpython/archive/ccb0e6a3452335a4c3e2433934c3c0c5622a34cd.zip"], # python3.9.0, 2022-04-15T19:34:20Z
 )
 
 http_archive(
